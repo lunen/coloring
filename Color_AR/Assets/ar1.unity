@@ -172,6 +172,18 @@ Prefab:
       propertyPath: mDataSetsToActivate.Array.data[0]
       value: ar1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mTurnOffWebCam
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436236, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mAutoInitTracker
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 11436236, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
+      propertyPath: mAutoStartTracker
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: bf30d577eead1ef40bcf2b404289daf4, type: 2}
   m_IsPrefabParent: 0
@@ -204,15 +216,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0.000000015454296
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0.70710677
+      value: -0.7071068
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.000000015454296
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
       propertyPath: m_LocalRotation.w
@@ -226,6 +238,10 @@ Prefab:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 1913a05524b564249809006b4e2c346c, type: 2}
+    - target: {fileID: 400000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -90
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 168e3dbf57376e04398f1071e258688a, type: 3}
   m_IsPrefabParent: 0
@@ -292,7 +308,7 @@ Prefab:
     - target: {fileID: 3300000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1720476127}
+      objectReference: {fileID: 1891867320}
     - target: {fileID: 11400000, guid: 384a0d8cc71cef74a873b3353337ea2c, type: 2}
       propertyPath: mTrackableName
       value: duck
@@ -485,7 +501,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
---- !u!43 &1720476127
+--- !u!43 &1891867320
 Mesh:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
